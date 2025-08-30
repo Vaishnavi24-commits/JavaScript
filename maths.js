@@ -1,13 +1,12 @@
 // let num1 = 231
 // console.log(num1);
-// console.log(typeof num1);
+// console.log(typeof num1);// number because it is primitive data type
 
 
 
-
-// let num2 = new Number(231);
+//let num2 = new Number(231);
 // console.log(num2);
-// console.log(typeof num2);
+// console.log(typeof num2); // object because it is non primitive data type which is created using number constructor that is why it is object
 
 // let num3 = new Number(231)
 // console.log(num3);
