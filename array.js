@@ -81,11 +81,14 @@
 // console.log(newarr);
 
 //to confirm the given input is array or not
- console.log(Array.isArray(arr1)); // true
+//  console.log(Array.isArray(arr1)); // true
 
 
-
-
-
-
+//Destructuring of array
+//let arr = [1,2,3,4,5,6,7,8,9]
+//  let [a,b,c,d,e,f,g,h,i] = arr // it will create 9 variables a,b,c,d,e,f,g,h,i and assign the values of arr to them
+//  console.log(a,b,c,d,e,f,g,h,i);
+//  let [a,b,...rest] = arr // it will create 2 variables a and b and assign the values of arr to them and rest of the elements will be assigned to rest as an array
+//  console.log(a,b);
+//  console.log(rest);
 
