@@ -1,7 +1,7 @@
 // let num = 3%6 // modulus gives remainder
 // console.log(num);
 
-const { log } = require("console");
+
 
 // let sum = 456
 // //let total = sum++;

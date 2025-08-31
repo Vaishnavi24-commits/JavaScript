@@ -13,11 +13,6 @@
 // console.log(obj["name"]); // this should be passed as a string
 // console.log(obj["age"]);
 
-const { createPublicKey } = require("crypto");
-const { add } = require("lodash")
-
-
-
 // we can use number as a key also
 // const obj = {
 //     0: "vaishnavi",
