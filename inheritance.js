@@ -6,7 +6,8 @@
 //     amount:88,
 //     card:8997878787
 // }
-// user1.__proto__=user2 // it will set the prototype of user1 to user2
+// user1.__proto__=user2 // it will set the prototype of user1 to user2 dont use this method its very costly
+//user2=Object.create(user1) // it will create a new object with user1 as prototype of user2 use this method because its not costly and its faster
 // console.log(user1);
 // console.log(user2);
 // console.log(user1.name);
