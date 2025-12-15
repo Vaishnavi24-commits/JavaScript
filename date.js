@@ -7,7 +7,7 @@
 // // console.log(d.toISOString());
 // console.log(typeof d);
 
-const { log } = require("console");
+
 
 // console.log(d.getDate());
 // console.log(d.getDay());
