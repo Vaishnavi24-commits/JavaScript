@@ -27,13 +27,13 @@ const quotes = [
 
 
 
-function generateQuote(){
-const text = document.getElementById("quote")
-const index = Math.floor(Math.random()*quotes.length)
-text.textContent = quotes[index]
-}
+// function generateQuote(){
+// const text = document.getElementById("quote")
+// const index = Math.floor(Math.random()*quotes.length)
+// text.textContent = quotes[index]
+// }
 
-setInterval(generateQuote,2000)
+// setInterval(generateQuote,2000)
 
 
 // change bg color randomly after 2 seconds
@@ -49,12 +49,11 @@ setInterval(generateQuote,2000)
 // setInterval(bgColor,2000)
 
 //Method 2
-function randomColor() {
-  const r = Math.floor(Math.random() * 256);
-  const g = Math.floor(Math.random() * 256);
-  const b = Math.floor(Math.random() * 256);
+// function randomColor() {
+//   const r = Math.floor(Math.random() * 256);
+//   const g = Math.floor(Math.random() * 256);
+//   const b = Math.floor(Math.random() * 256);
 
-  document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`; //document.body IT IS THE SHORTCUT TO SELECT THE WHOLE PAGE to change the background color of the entire page
-}
+//   document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`; //document.body IT IS THE SHORTCUT TO SELECT THE WHOLE PAGE to change the background color of the entire page
+// }
 
-setInterval(randomColor, 2000);
