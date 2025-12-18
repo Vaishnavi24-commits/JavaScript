@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grand Parent */
+#grandParent {
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Parent */
+#parent {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Child */
+#child {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
